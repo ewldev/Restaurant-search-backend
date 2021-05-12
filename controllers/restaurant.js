@@ -8,7 +8,7 @@ const handleApiCall = (req, res ) => {
         Authorization: `Bearer ${process.env.YELP_API_KEY}`
     },
     params: {
-      location: `${req.body.input}`,
+      location: `${req.body.input} CA`,
       term: `${req.body.input2}`
     }    
   })  
