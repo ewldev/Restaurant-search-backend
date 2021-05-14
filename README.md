@@ -2,7 +2,7 @@
 
 Back end of app for searching restaurants based on your area and preferences 
 
-Created with Nodejs and Expressjs
+Created with Nodejs and Express
 
 Fetching data from Yelp API
 
