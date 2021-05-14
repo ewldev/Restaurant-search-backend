@@ -10,7 +10,8 @@ const handleApiCall = (req, res ) => {
     params: {
       location: `${req.body.input} CA`,
       term: `${req.body.input2}`,
-      categories: 'restaurants'
+      categories: 'restaurants',
+      sort_by: 'rating'
     }    
   })  
     .then(data => {
